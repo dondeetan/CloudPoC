@@ -31,7 +31,7 @@ SecurityStrategyPoC
 The `.NET` folder contains a sample API built with ASP.NET Core.
 
 ### Prerequisites
-- Ensure that the .NET 8 runtime is installed (pre-installed on Edward Jones managed workstations or laptops).
+- Ensure that the .NET 8 runtime is installed 
 
 ### Run Sample API
 1. Navigate to the `DotNet/Api` folder:
