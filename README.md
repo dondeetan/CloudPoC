@@ -89,7 +89,8 @@ Create Python virtual environment:
 2. Activate the virtual environment:
 - On Windows: 
    ```bash
-   python -m venv fastapi
+   cd Python/Api/fastapi/Scripts
+   .\activate   
    ```
 - On macOS/Linux: 
    ```bash
@@ -99,6 +100,11 @@ Create Python virtual environment:
    ```bash
    deactivate
    ```
+4. Install API Modules
+   ```bash
+   pip install --no-cache-dir -r requirements.txt
+   ```
+
 ### Run Sample API
 1. Navigate to the Api folder:
    ```bash
@@ -106,7 +112,7 @@ Create Python virtual environment:
    ```   
 2. Run the application:
    ```bash
-   python WeatherForecastService.py
+   python Carsharing.py
    ```   
 ### Run Using Uvicorn
 1. Navigate to the Api folder:
@@ -115,7 +121,7 @@ Create Python virtual environment:
    ```
 2. Run the application with Uvicorn:
    ```bash
-   uvicorn WeatherForecastService:app --port=8086 --reload
+   uvicorn Carsharing:app --port=8086 --reload
    ```
 3. The API will be available at `http://localhost:8086`
    
